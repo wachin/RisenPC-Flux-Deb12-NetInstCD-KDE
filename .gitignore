@@ -1,0 +1,5 @@
+# Ignorar el menu creado (pues eso es para cada usuario)
+xdg_menu
+
+
+
