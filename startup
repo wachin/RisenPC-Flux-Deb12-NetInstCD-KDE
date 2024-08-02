@@ -21,6 +21,10 @@ xset -dpms s off
 # al final debe de decir: DPMS is Disabled
 
 
+# Internet
+nm-tray &
+
+
 # Terminales
 konsole &
 
@@ -57,7 +61,7 @@ kate &
 #geany &
 
 # Poner el bloque de notas en la bandeja del sistema:
-feathernotes &
+feathernotes /home/wachin/Documentos/FeatherNotes/2024-07-15-wachi.fnx &
 
 # Aplicacion para poder expulsar USB, Pendrives
 
@@ -99,6 +103,17 @@ setxkbmap -layout es & # Teclado Español europeo
 
 # Para hacer capturas de pantalla
 ksnip &
+
+# Solucionar que en Debian 12 no funciona el doble clic del touchpad
+# a mi laptop Dell Inspiron 1750
+
+synclient TapButton1=1
+synclient ClickFinger1=1
+synclient TapButton2=3
+synclient ClickFinger2=3
+synclient TapButton3=2
+synclient ClickFinger3=2
+
 
 # Navegadores web, elija cual usar:
 # firefox-esr &

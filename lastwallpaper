@@ -1,2 +1,1 @@
-$full fbsetroot|/home/wachin/.fluxbox/styles/niroki-medium/pixmaps/niroki.png|style|:0
-$full $full|/home/wachin/.fluxbox/styles/niroki-medium/pixmaps/niroki.png|style|:0.0
+fbsetroot|-foreground #D5D6DB -solid #D5D6DB|style|:0
