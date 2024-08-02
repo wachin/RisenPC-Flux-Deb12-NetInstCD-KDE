@@ -61,7 +61,8 @@ kate &
 #geany &
 
 # Poner el bloque de notas en la bandeja del sistema:
-feathernotes /home/wachin/Documentos/FeatherNotes/2024-07-15-wachi.fnx &
+#feathernotes /home/wachin/Documentos/FeatherNotes/2024-07-15-wachi.fnx &
+xfce4-notes &
 
 # Aplicacion para poder expulsar USB, Pendrives
 
