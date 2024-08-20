@@ -22,7 +22,7 @@ xset -dpms s off
 
 
 # Internet
-nm-tray &
+nm-applet &
 
 # Habilitar KDE Connect para 32 bit:
 /usr/lib/i386-linux-gnu/libexec/kdeconnectd &
