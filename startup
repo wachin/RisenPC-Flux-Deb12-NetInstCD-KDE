@@ -21,13 +21,13 @@ xset -dpms s off
 # al final debe de decir: DPMS is Disabled
 
 # xsct_gui
-/home/wachin/Dev-python/xsct_gui/Launcher.sh &
+sleep 20; /home/wachin/Dev-python/xsct_gui/Launcher.sh &
 
 # Internet
 nm-applet &
 
-# Habilitar KDE Connect para 32 bit:
-/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
+# Habilitar KDE Connect:
+kdeconnect-indicator &
 
 # Terminales
 konsole &
