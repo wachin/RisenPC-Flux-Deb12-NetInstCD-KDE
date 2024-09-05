@@ -20,6 +20,8 @@ xset -dpms s off
 # Si usted desea ver el status de xset ponga en la terminal: xset q
 # al final debe de decir: DPMS is Disabled
 
+# xsct_gui
+/home/wachin/Dev-python/xsct_gui/Launcher.sh &
 
 # Internet
 nm-applet &
@@ -110,12 +112,12 @@ ksnip &
 # Solucionar que en Debian 12 no funciona el doble clic del touchpad
 # a mi laptop Dell Inspiron 1750
 
-synclient TapButton1=1
-synclient ClickFinger1=1
-synclient TapButton2=3
-synclient ClickFinger2=3
-synclient TapButton3=2
-synclient ClickFinger3=2
+#synclient TapButton1=1
+#synclient ClickFinger1=1
+#synclient TapButton2=3
+#synclient ClickFinger2=3
+#synclient TapButton3=2
+#synclient ClickFinger3=2
 
 
 # Navegadores web, elija cual usar:

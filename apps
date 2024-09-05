@@ -2,3 +2,12 @@
   [Position]	(WINCENTER)	{0 0}
   [Layer]	{2}
 [end]
+[app] (name=Dolphin)
+  [Deco] {NORMAL}
+  [Position]	(WINCENTER)	{0 0}
+[end]
+[app] (class=AlarmClockApplet)
+  [Position] (WINCENTER) {0 0}
+[end]
+
+
