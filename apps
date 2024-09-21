@@ -1,13 +1,14 @@
 [app] (name=fbrun)
-  [Position]	(WINCENTER)	{0 0}
+  [Position]	(CENTER)	{0 0}
   [Layer]	{2}
 [end]
 [app] (name=Dolphin)
-  [Deco] {NORMAL}
-  [Position]	(WINCENTER)	{0 0}
+  [Position]	(CENTER)	{0 0}
+  [Deco]	{NORMAL}
 [end]
 [app] (class=AlarmClockApplet)
-  [Position] (WINCENTER) {0 0}
+  [Position]	(CENTER)	{0 0}
 [end]
-
-
+[app] (name=dolphin) (class=dolphin) (role=Dolphin#1)
+  [Minimized]	{no}
+[end]

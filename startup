@@ -45,6 +45,8 @@ pnmixer &
 # Para que la tecla numerica funcione
 numlockx on &
 
+# MarkdownnEditor
+vnote &
 
 # Es nesesario para poder configurar la velocidad de los cursores de dispositivos externos:
 xinput-gui &
