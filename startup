@@ -20,8 +20,8 @@ xset -dpms s off
 # Si usted desea ver el status de xset ponga en la terminal: xset q
 # al final debe de decir: DPMS is Disabled
 
-# xsct_gui
-sleep 20; /home/wachin/Dev-python/xsct_gui/Launcher.sh &
+# xsct_gui https://github.com/wachin/xsct_gui
+# sleep 20; /home/wachin/Dev-python/xsct_gui/Launcher.sh &
 
 # Internet
 nm-applet &
